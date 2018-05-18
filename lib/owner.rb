@@ -88,7 +88,7 @@ class Owner
       [animal_name, animal[1].count]
     }
 
-    message = "I have " #quantity is aptly named
+    message = "I have " 
 
     number_of_pets.each_with_index do |animal, index|
       if index != number_of_pets.length - 1
